@@ -1,0 +1,107 @@
+body{
+    background-image: url(./images/bg.png);
+}
+.logo{
+    width: 20%;
+    display: inline-block;
+}
+.cont{
+    background-color: aliceblue;
+    width: 85%;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    margin-top: 3%;
+    border-radius: 1.5%;
+}
+h1{
+    padding: 20px;
+    text-decoration: underline;
+}
+.mi{
+    padding: 20px;
+    text-decoration: underline;
+}
+.info{
+    padding: 20px;
+    font-weight: 750;
+    font-size: larger;
+}
+.abt{
+    float: right;
+    margin-right: 15px;
+    margin-top: 25px;
+    border: solid black 5px;
+}
+li{
+    padding-left: 20px;
+    font-weight: 750;
+    font-size: larger;
+}
+
+footer{
+    background-color: rgb(17, 15, 8) ;
+    margin-top: 30px;
+    padding: 0%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.75fr 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-template-rows: 1fr 1fr;
+}
+.foot{
+    color: aliceblue;
+    padding-top: 80px;
+   padding-bottom: 150px;
+   padding-left: 100px;
+   grid-row: span 2;
+}
+.email{
+    grid-column: span 2;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.mail{
+    float: left;
+    margin: 20px;
+}
+
+h4{
+    color: aliceblue;
+}
+.pho{
+    float: left;
+    margin: 20px;
+}
+.ph{
+
+    grid-column: span 2;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.w{
+    margin-top: 20px;
+}
+.x{
+    color: rgb(163, 170, 176);
+}
+.bi{
+    margin: 0;
+}
+.rest{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20%; 
+    grid-column: span 3;
+}
+.nav-link{
+    padding: 20px;
+}
+.Sponsors{
+    width: 300px;
+    padding-right: 0px; 
+    padding-left: 30px;
+
+}
